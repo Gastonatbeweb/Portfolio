@@ -1,0 +1,68 @@
+html
+{
+
+font-family: arial;
+font-size: 26px ;
+background-image: url("index.jpg");
+
+
+}
+
+body
+{
+overflow-x: hidden;
+
+
+}
+
+section
+{
+
+border: 2px solid grey ;
+border-radius: 20px ;
+margin-top: 40px;
+position:relative;
+background-color: #cdcdcc ;
+padding-left: 15px ;
+padding-right: 15px ;
+width: 60% ;
+
+}
+
+
+p
+{
+
+  padding: 10px ;
+}
+
+h1
+{
+
+text-align: center;
+
+}
+
+#conteneur
+{
+
+display: flex;
+flex-direction: column;
+justify-content: space-around;;
+align-items: center;
+
+}
+#navi
+{
+  position: fixed;
+  width: 200px;
+  border: 2px solid black ;
+  background-color: #cdcdcc ;
+  float: left;
+
+}
+li
+{
+  list-style: none;
+  margin-left: -30px;
+}
