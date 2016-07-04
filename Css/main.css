@@ -1,0 +1,205 @@
+html {
+
+  @font-face {/*police custom qui est utiliser pour certain titres*/
+  font-family: 'raleway_thin';
+  src: url("..DroidSerif-Regular.ttf");
+  }
+  font-size: 26px;
+  color : white ;
+
+}
+
+
+#logo{
+  position: absolute;
+  margin-left: 10px ;
+  margin-top: 20px ;
+
+}
+#fond{
+  width: 100% ;
+  margin-top: -10px ;
+
+}
+
+body{
+  overflow-x: hidden;
+  padding: 0px ;
+  margin: 0px ;
+
+ }
+
+section {
+
+  margin-top: 40px;
+  position: relative;
+  width: 65%; }
+
+#connais{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#html img{
+  width: 20% ;
+}
+#css img{
+  width: 12% ;
+  margin-left: 30px ;
+  margin-right: 25px ;
+}
+#js img{
+  width: 12% ;
+  margin-left: 30px ;
+  margin-right: 25px ;
+}
+#c++ img{
+
+}
+#html {
+  display: flex ;
+
+}
+#css {
+  display: flex;
+
+}
+#js {
+  display: flex;
+}
+#c++ {
+  display: flex;
+}
+
+#connais div img{
+  margin-top: 15px;
+}
+.un{
+  height: 10px ;
+  width: 15% ;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px ;
+}
+
+h1 {
+  text-align: center; }
+
+#conteneur {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../Images/degrad.png");
+  background-size: cover;
+  margin-top: -10px ;}
+
+#navi {
+  position: fixed;
+  top : 200px ;
+}
+accueil_list{
+
+  list-style-type: circle;
+}
+accueil_list:hover{
+  list-style-type: inherit;
+  color : white ;
+}
+
+#intro_list{
+
+  list-style-type: circle;
+
+}
+#intro_list:hover{
+  list-style-type: inherit;
+  color : white ;
+
+}
+
+#form_list{
+
+  list-style-type: circle;
+
+}
+
+#form_list:hover
+{
+  color : white ;
+  list-style-type:inherit;
+}
+#connais_list{
+
+  list-style-type: circle;
+
+}
+#connais_list:hover
+{
+  color : white ;
+  list-style-type:inherit;
+}
+#proj_list{
+
+  list-style-type: circle;
+
+}
+#proj_list:hover
+{
+  color : white ;
+  list-style-type:inherit;
+}
+p
+{
+  display: flex;
+  flex-direction: column;
+}
+
+a
+{
+  text-decoration: none;
+  outline: none;
+}
+a:visited{
+  color: white ;
+}
+a li{
+  color: white ;
+}
+
+#onglet_2{
+  display: none;
+}
+
+#onglet_contain_1{
+display: flex;
+justify-content: space-around;
+}
+#onglet_contain_2{
+display: flex;
+float: left;
+padding-left: 60px ;
+}
+#onglet_contain_3{
+display: none;
+float: left;
+padding-left: 60px ;
+}
+
+
+#onglet-1 , #onglet-2{
+  padding: 4px ;
+  border: 2px solid white ;
+  border-radius: 4px ;
+  cursor: pointer;
+}
+#onglet-2{
+  opacity : 0.5 ;
+}
+
+#onglets{
+  height: 600px ;
+}
+
+/*# sourceMappingURL=main.css.map */

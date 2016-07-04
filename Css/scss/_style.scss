@@ -3,15 +3,13 @@ html
 
 font-family: arial;
 font-size: 26px ;
-background-image: url("index.jpg");
-
 
 }
 
 body
 {
-overflow-x: hidden;
 
+overflow-x: hidden;
 
 }
 
@@ -65,4 +63,5 @@ li
 {
   list-style: none;
   margin-left: -30px;
+  width: 10em;
 }
